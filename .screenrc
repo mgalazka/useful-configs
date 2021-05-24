@@ -5,6 +5,9 @@ defscrollback 100000
 deflog on
 
 # log files
+#
+# make sure to create ~/screenlogs
+#
 logfile $HOME/screenlogs/screenlog-%Y%m%d-%0c:%s-%n.log
 
 # log timestamps
