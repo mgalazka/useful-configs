@@ -1,0 +1,11 @@
+# keep a large scroll buffer
+defscrollback 100000
+
+# log everything by default
+deflog on
+
+# log files
+logfile $HOME/screenlogs/screenlog-%Y%m%d-%0c:%s-%n.log
+
+# log timestamps
+logtstamp on
